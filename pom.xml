@@ -27,13 +27,20 @@
 		</developer>
 	</developers>
 	
-<repositories>
+ <repositories>
     <repository>
-      <name>OracleMaven</name>
-      <id>maven.oracle.com</id>
-      <url>https://maven.oracle.com</url>
+      <name>Maven Central</name>
+      <id>Maven Central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
     </repository>
   </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <name>Maven Central</name>
+      <id>Maven Central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </pluginRepository>
+  </pluginRepositories>
 
 	<modules>
 		<module>Model</module>
