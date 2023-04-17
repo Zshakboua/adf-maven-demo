@@ -34,19 +34,6 @@
       <url>https://maven.oracle.com</url>
     </repository>
   </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <id>maven.oracle.com</id>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <url>https://maven.oracle.com</url>
-      <layout>default</layout>
-    </pluginRepository>
-</pluginRepositories>
 
 	<modules>
 		<module>Model</module>
